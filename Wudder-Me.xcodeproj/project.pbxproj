@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A57E575A232C222100FC180C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E5759232C222100FC180C /* AppDelegate.swift */; };
+		A57E575C232C222100FC180C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E575B232C222100FC180C /* ViewController.swift */; };
+		A57E575F232C222100FC180C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57E575D232C222100FC180C /* Main.storyboard */; };
+		A57E5761232C222300FC180C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57E5760232C222300FC180C /* Assets.xcassets */; };
+		A57E5764232C222300FC180C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57E5762232C222300FC180C /* LaunchScreen.storyboard */; };
+		A57E576F232C222300FC180C /* Wudder_MeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E576E232C222300FC180C /* Wudder_MeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A57E576B232C222300FC180C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A57E574E232C222100FC180C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A57E5755232C222100FC180C;
+			remoteInfo = "Wudder-Me";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A57E5756232C222100FC180C /* Wudder-Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wudder-Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57E5759232C222100FC180C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A57E575B232C222100FC180C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A57E575E232C222100FC180C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A57E5760232C222300FC180C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A57E5763232C222300FC180C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A57E5765232C222300FC180C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A57E576A232C222300FC180C /* Wudder-MeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wudder-MeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57E576E232C222300FC180C /* Wudder_MeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wudder_MeTests.swift; sourceTree = "<group>"; };
+		A57E5770232C222300FC180C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A57E5753232C222100FC180C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57E5767232C222300FC180C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A57E574D232C222100FC180C = {
+			isa = PBXGroup;
+			children = (
+				A57E5758232C222100FC180C /* Wudder-Me */,
+				A57E576D232C222300FC180C /* Wudder-MeTests */,
+				A57E5757232C222100FC180C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A57E5757232C222100FC180C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A57E5756232C222100FC180C /* Wudder-Me.app */,
+				A57E576A232C222300FC180C /* Wudder-MeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A57E5758232C222100FC180C /* Wudder-Me */ = {
+			isa = PBXGroup;
+			children = (
+				A57E5759232C222100FC180C /* AppDelegate.swift */,
+				A57E575B232C222100FC180C /* ViewController.swift */,
+				A57E575D232C222100FC180C /* Main.storyboard */,
+				A57E5760232C222300FC180C /* Assets.xcassets */,
+				A57E5762232C222300FC180C /* LaunchScreen.storyboard */,
+				A57E5765232C222300FC180C /* Info.plist */,
+			);
+			path = "Wudder-Me";
+			sourceTree = "<group>";
+		};
+		A57E576D232C222300FC180C /* Wudder-MeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A57E576E232C222300FC180C /* Wudder_MeTests.swift */,
+				A57E5770232C222300FC180C /* Info.plist */,
+			);
+			path = "Wudder-MeTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A57E5755232C222100FC180C /* Wudder-Me */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57E5773232C222300FC180C /* Build configuration list for PBXNativeTarget "Wudder-Me" */;
+			buildPhases = (
+				A57E5752232C222100FC180C /* Sources */,
+				A57E5753232C222100FC180C /* Frameworks */,
+				A57E5754232C222100FC180C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wudder-Me";
+			productName = "Wudder-Me";
+			productReference = A57E5756232C222100FC180C /* Wudder-Me.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A57E5769232C222300FC180C /* Wudder-MeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57E5776232C222300FC180C /* Build configuration list for PBXNativeTarget "Wudder-MeTests" */;
+			buildPhases = (
+				A57E5766232C222300FC180C /* Sources */,
+				A57E5767232C222300FC180C /* Frameworks */,
+				A57E5768232C222300FC180C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A57E576C232C222300FC180C /* PBXTargetDependency */,
+			);
+			name = "Wudder-MeTests";
+			productName = "Wudder-MeTests";
+			productReference = A57E576A232C222300FC180C /* Wudder-MeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A57E574E232C222100FC180C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Liana Norman";
+				TargetAttributes = {
+					A57E5755232C222100FC180C = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					A57E5769232C222300FC180C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A57E5755232C222100FC180C;
+					};
+				};
+			};
+			buildConfigurationList = A57E5751232C222100FC180C /* Build configuration list for PBXProject "Wudder-Me" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A57E574D232C222100FC180C;
+			productRefGroup = A57E5757232C222100FC180C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A57E5755232C222100FC180C /* Wudder-Me */,
+				A57E5769232C222300FC180C /* Wudder-MeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A57E5754232C222100FC180C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57E5764232C222300FC180C /* LaunchScreen.storyboard in Resources */,
+				A57E5761232C222300FC180C /* Assets.xcassets in Resources */,
+				A57E575F232C222100FC180C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57E5768232C222300FC180C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A57E5752232C222100FC180C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57E575C232C222100FC180C /* ViewController.swift in Sources */,
+				A57E575A232C222100FC180C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57E5766232C222300FC180C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57E576F232C222300FC180C /* Wudder_MeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A57E576C232C222300FC180C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A57E5755232C222100FC180C /* Wudder-Me */;
+			targetProxy = A57E576B232C222300FC180C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A57E575D232C222100FC180C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A57E575E232C222100FC180C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A57E5762232C222300FC180C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A57E5763232C222300FC180C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A57E5771232C222300FC180C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A57E5772232C222300FC180C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A57E5774232C222300FC180C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wudder-Me/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pursuit-Projects.Wudder-Me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A57E5775232C222300FC180C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wudder-Me/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pursuit-Projects.Wudder-Me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A57E5777232C222300FC180C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wudder-MeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pursuit-Projects.Wudder-MeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wudder-Me.app/Wudder-Me";
+			};
+			name = Debug;
+		};
+		A57E5778232C222300FC180C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wudder-MeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pursuit-Projects.Wudder-MeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wudder-Me.app/Wudder-Me";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A57E5751232C222100FC180C /* Build configuration list for PBXProject "Wudder-Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57E5771232C222300FC180C /* Debug */,
+				A57E5772232C222300FC180C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A57E5773232C222300FC180C /* Build configuration list for PBXNativeTarget "Wudder-Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57E5774232C222300FC180C /* Debug */,
+				A57E5775232C222300FC180C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A57E5776232C222300FC180C /* Build configuration list for PBXNativeTarget "Wudder-MeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57E5777232C222300FC180C /* Debug */,
+				A57E5778232C222300FC180C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A57E574E232C222100FC180C /* Project object */;
+}
