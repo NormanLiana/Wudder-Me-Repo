@@ -77,11 +77,11 @@
 		A57E5758232C222100FC180C /* Wudder-Me */ = {
 			isa = PBXGroup;
 			children = (
-				A57E5759232C222100FC180C /* AppDelegate.swift */,
-				A57E575B232C222100FC180C /* ViewController.swift */,
-				A57E575D232C222100FC180C /* Main.storyboard */,
-				A57E5760232C222300FC180C /* Assets.xcassets */,
-				A57E5762232C222300FC180C /* LaunchScreen.storyboard */,
+				A57E577D232C2AD400FC180C /* Network */,
+				A57E577C232C2AC300FC180C /* Models */,
+				A57E5779232C2A4F00FC180C /* Supporting File */,
+				A57E577A232C2A7E00FC180C /* Controllers */,
+				A57E577B232C2A8C00FC180C /* Views */,
 				A57E5765232C222300FC180C /* Info.plist */,
 			);
 			path = "Wudder-Me";
@@ -94,6 +94,46 @@
 				A57E5770232C222300FC180C /* Info.plist */,
 			);
 			path = "Wudder-MeTests";
+			sourceTree = "<group>";
+		};
+		A57E5779232C2A4F00FC180C /* Supporting File */ = {
+			isa = PBXGroup;
+			children = (
+				A57E5759232C222100FC180C /* AppDelegate.swift */,
+				A57E5760232C222300FC180C /* Assets.xcassets */,
+				A57E5762232C222300FC180C /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting File";
+			sourceTree = "<group>";
+		};
+		A57E577A232C2A7E00FC180C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A57E575B232C222100FC180C /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A57E577B232C2A8C00FC180C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A57E575D232C222100FC180C /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A57E577C232C2AC300FC180C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A57E577D232C2AD400FC180C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
