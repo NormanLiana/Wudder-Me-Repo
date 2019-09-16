@@ -28,8 +28,8 @@ struct Plant: Codable {
     
     let name: String
     let image: [ImageWrapper]
-    let duration: Int
-    let hours: Int
+    let duration: String
+    let hours: String
     let description: String
     
     enum CodingKeys: String, CodingKey {
@@ -121,7 +121,7 @@ struct Plant: Codable {
 //    }
 //    }
 //    ],
-//    "Duration": "17",
+//    "Duration": "17                                                                                                                                                                                                                                                                                                                                                                                                                                                       ,                            ,,,,,,,,, ,khkj  k k",
 //    "Hours": "408",
 //    "Description": "When its soil becomes dry to a depth of 1-2”, water your monstera directly into the pot so not to moisten foliage and just enough to keep the soil from completely drying out. Your Monstera is somewhat drought tolerant, so you don’t need to worry about keeping up with the watering all the time. Don’t allow the pot to stand in water, as this will cause root rot."
 //    },
