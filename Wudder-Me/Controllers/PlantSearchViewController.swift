@@ -10,6 +10,12 @@ import UIKit
 
 class PlantSearchViewController: UIViewController {
 
+    
+    @IBOutlet weak var plantTableViewOutlet: UITableView!
+    
+    @IBOutlet weak var plantSearchBarOutlet:
+    UISearchBar! 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
