@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A57E575A232C222100FC180C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E5759232C222100FC180C /* AppDelegate.swift */; };
-		A57E575C232C222100FC180C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E575B232C222100FC180C /* ViewController.swift */; };
 		A57E575F232C222100FC180C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57E575D232C222100FC180C /* Main.storyboard */; };
 		A57E5761232C222300FC180C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57E5760232C222300FC180C /* Assets.xcassets */; };
 		A57E5764232C222300FC180C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57E5762232C222300FC180C /* LaunchScreen.storyboard */; };
@@ -18,7 +17,15 @@
 		A57E5785232FD63900FC180C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E5784232FD63900FC180C /* NetworkManager.swift */; };
 		A57E5787232FD65000FC180C /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E5786232FD65000FC180C /* AppError.swift */; };
 		A57E5789232FD66100FC180C /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E5788232FD66100FC180C /* ImageManager.swift */; };
+<<<<<<< HEAD
 		FC247B32232FEF9500E46002 /* SecretKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC247B31232FEF9500E46002 /* SecretKeys.swift */; };
+=======
+		A57E578B232FEF9700FC180C /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E578A232FEF9700FC180C /* Secret.swift */; };
+		A57E578D233006C400FC180C /* PlantSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E578C233006C400FC180C /* PlantSearchViewController.swift */; };
+		A57E578F2330073E00FC180C /* UsersPlantListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E578E2330073E00FC180C /* UsersPlantListViewController.swift */; };
+		A57E57912330080300FC180C /* DetailPlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E57902330080300FC180C /* DetailPlantViewController.swift */; };
+		A57E57932330085800FC180C /* TimerReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E57922330085800FC180C /* TimerReminderViewController.swift */; };
+>>>>>>> 18ab29ab5d7115c8a9834cebdc76c21b3dc58cfe
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +41,6 @@
 /* Begin PBXFileReference section */
 		A57E5756232C222100FC180C /* Wudder-Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wudder-Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57E5759232C222100FC180C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A57E575B232C222100FC180C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A57E575E232C222100FC180C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A57E5760232C222300FC180C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A57E5763232C222300FC180C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,7 +53,15 @@
 		A57E5784232FD63900FC180C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = ../../NetworkManager.swift; sourceTree = "<group>"; };
 		A57E5786232FD65000FC180C /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		A57E5788232FD66100FC180C /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		FC247B31232FEF9500E46002 /* SecretKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretKeys.swift; sourceTree = "<group>"; };
+=======
+		A57E578A232FEF9700FC180C /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
+		A57E578C233006C400FC180C /* PlantSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantSearchViewController.swift; sourceTree = "<group>"; };
+		A57E578E2330073E00FC180C /* UsersPlantListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersPlantListViewController.swift; sourceTree = "<group>"; };
+		A57E57902330080300FC180C /* DetailPlantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPlantViewController.swift; sourceTree = "<group>"; };
+		A57E57922330085800FC180C /* TimerReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerReminderViewController.swift; sourceTree = "<group>"; };
+>>>>>>> 18ab29ab5d7115c8a9834cebdc76c21b3dc58cfe
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +136,10 @@
 		A57E577A232C2A7E00FC180C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A57E575B232C222100FC180C /* ViewController.swift */,
+				A57E578C233006C400FC180C /* PlantSearchViewController.swift */,
+				A57E578E2330073E00FC180C /* UsersPlantListViewController.swift */,
+				A57E57902330080300FC180C /* DetailPlantViewController.swift */,
+				A57E57922330085800FC180C /* TimerReminderViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -150,6 +167,7 @@
 				A57E5782232FD62400FC180C /* PlantAPIClient.swift */,
 				A57E5786232FD65000FC180C /* AppError.swift */,
 				A57E5788232FD66100FC180C /* ImageManager.swift */,
+				A57E578A232FEF9700FC180C /* Secret.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -256,12 +274,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				A57E5783232FD62400FC180C /* PlantAPIClient.swift in Sources */,
-				A57E575C232C222100FC180C /* ViewController.swift in Sources */,
 				A57E5789232FD66100FC180C /* ImageManager.swift in Sources */,
 				A57E5787232FD65000FC180C /* AppError.swift in Sources */,
+				A57E57912330080300FC180C /* DetailPlantViewController.swift in Sources */,
+				A57E57932330085800FC180C /* TimerReminderViewController.swift in Sources */,
 				A57E5785232FD63900FC180C /* NetworkManager.swift in Sources */,
+<<<<<<< HEAD
 				FC247B32232FEF9500E46002 /* SecretKeys.swift in Sources */,
+=======
+				A57E578B232FEF9700FC180C /* Secret.swift in Sources */,
+				A57E578F2330073E00FC180C /* UsersPlantListViewController.swift in Sources */,
+>>>>>>> 18ab29ab5d7115c8a9834cebdc76c21b3dc58cfe
 				A57E577F232FD5B600FC180C /* Plant.swift in Sources */,
+				A57E578D233006C400FC180C /* PlantSearchViewController.swift in Sources */,
 				A57E575A232C222100FC180C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
