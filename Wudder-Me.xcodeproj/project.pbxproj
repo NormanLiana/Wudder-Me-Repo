@@ -13,6 +13,11 @@
 		A57E5761232C222300FC180C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57E5760232C222300FC180C /* Assets.xcassets */; };
 		A57E5764232C222300FC180C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57E5762232C222300FC180C /* LaunchScreen.storyboard */; };
 		A57E576F232C222300FC180C /* Wudder_MeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E576E232C222300FC180C /* Wudder_MeTests.swift */; };
+		A57E577F232FD5B600FC180C /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E577E232FD5B600FC180C /* Plant.swift */; };
+		A57E5783232FD62400FC180C /* PlantAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E5782232FD62400FC180C /* PlantAPIClient.swift */; };
+		A57E5785232FD63900FC180C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E5784232FD63900FC180C /* NetworkManager.swift */; };
+		A57E5787232FD65000FC180C /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E5786232FD65000FC180C /* AppError.swift */; };
+		A57E5789232FD66100FC180C /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E5788232FD66100FC180C /* ImageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		A57E576A232C222300FC180C /* Wudder-MeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wudder-MeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57E576E232C222300FC180C /* Wudder_MeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wudder_MeTests.swift; sourceTree = "<group>"; };
 		A57E5770232C222300FC180C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A57E577E232FD5B600FC180C /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		A57E5782232FD62400FC180C /* PlantAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantAPIClient.swift; sourceTree = "<group>"; };
+		A57E5784232FD63900FC180C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = ../../NetworkManager.swift; sourceTree = "<group>"; };
+		A57E5786232FD65000FC180C /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		A57E5788232FD66100FC180C /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +135,7 @@
 		A57E577C232C2AC300FC180C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A57E577E232FD5B600FC180C /* Plant.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -132,6 +143,10 @@
 		A57E577D232C2AD400FC180C /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				A57E5784232FD63900FC180C /* NetworkManager.swift */,
+				A57E5782232FD62400FC180C /* PlantAPIClient.swift */,
+				A57E5786232FD65000FC180C /* AppError.swift */,
+				A57E5788232FD66100FC180C /* ImageManager.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -237,7 +252,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A57E5783232FD62400FC180C /* PlantAPIClient.swift in Sources */,
 				A57E575C232C222100FC180C /* ViewController.swift in Sources */,
+				A57E5789232FD66100FC180C /* ImageManager.swift in Sources */,
+				A57E5787232FD65000FC180C /* AppError.swift in Sources */,
+				A57E5785232FD63900FC180C /* NetworkManager.swift in Sources */,
+				A57E577F232FD5B600FC180C /* Plant.swift in Sources */,
 				A57E575A232C222100FC180C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
