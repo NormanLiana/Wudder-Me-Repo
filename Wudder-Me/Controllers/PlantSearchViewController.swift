@@ -10,17 +10,81 @@ import UIKit
 
 class PlantSearchViewController: UIViewController {
 
-    
+    // MARK: Outlets
     @IBOutlet weak var plantTableViewOutlet: UITableView!
-    
     @IBOutlet weak var plantSearchBarOutlet:
-    UISearchBar! 
+    UISearchBar!
     
+    // MARK: Properties
+    var plants = [Plant]() {
+        didSet {
+            plantTableViewOutlet.reloadData()
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.destination is DetailPlantViewController {
+            guard let indexPath = plantTableViewOutlet.indexPathForSelectedRow,
+                let plantsVC = segue.destination as? DetailPlantViewController else {
+                    return
+            }
+            let onePlant = plants[indexPath.row]
+            plantsVC.plant = onePlant
+        }
+    }
+    
+    // MARK: Lifecycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
+        plantTableViewOutlet.dataSource = self
+        plantTableViewOutlet.delegate = self
+        loadData()
 
     }
     
+    // MARK: Private Methods
+    private func loadData() {
+        PlantAPTClient.manager.getPlants { (result) in
+            DispatchQueue.main.async {
+                switch result {
+                case .success(let plants):
+                    self.plants = plants
+                case .failure(let error):
+                    print(error)
+                }
+            }
+        }
+    }
+    
+    
+}
 
+// MARK: Extensions
+extension PlantSearchViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return plants.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = plantTableViewOutlet.dequeueReusableCell(withIdentifier: "plantCell", for: indexPath)
+        let imageURL = plants[indexPath.row].image[0].url
+        ImageManager.getImage(stringURL: imageURL) { (result) in
+            switch result {
+            case .failure(let error):
+                print(error)
+            case .success(let data):
+                DispatchQueue.main.async {
+                    cell.imageView?.image = data
+                }
+            }
+        }
+        cell.textLabel?.text = plants[indexPath.row].name
+        return cell
+    }
+    
+    
+}
 
+extension PlantSearchViewController: UITableViewDelegate {
+    
 }

@@ -35,7 +35,7 @@ struct Plant: Codable {
     enum CodingKeys: String, CodingKey {
         case name = "Name"
         case image = "Attachments"
-        case duration = "duration"
+        case duration = "Duration"
         case hours = "Hours"
         case description = "Description"
         
