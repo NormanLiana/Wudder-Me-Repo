@@ -18,6 +18,10 @@
 		A57E5787232FD65000FC180C /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E5786232FD65000FC180C /* AppError.swift */; };
 		A57E5789232FD66100FC180C /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E5788232FD66100FC180C /* ImageManager.swift */; };
 		A57E578B232FEF9700FC180C /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E578A232FEF9700FC180C /* Secret.swift */; };
+		A57E578D233006C400FC180C /* PlantSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E578C233006C400FC180C /* PlantSearchViewController.swift */; };
+		A57E578F2330073E00FC180C /* UsersPlantListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E578E2330073E00FC180C /* UsersPlantListViewController.swift */; };
+		A57E57912330080300FC180C /* DetailPlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E57902330080300FC180C /* DetailPlantViewController.swift */; };
+		A57E57932330085800FC180C /* TimerReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E57922330085800FC180C /* TimerReminderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,10 @@
 		A57E5786232FD65000FC180C /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		A57E5788232FD66100FC180C /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 		A57E578A232FEF9700FC180C /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
+		A57E578C233006C400FC180C /* PlantSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantSearchViewController.swift; sourceTree = "<group>"; };
+		A57E578E2330073E00FC180C /* UsersPlantListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersPlantListViewController.swift; sourceTree = "<group>"; };
+		A57E57902330080300FC180C /* DetailPlantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPlantViewController.swift; sourceTree = "<group>"; };
+		A57E57922330085800FC180C /* TimerReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerReminderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +127,10 @@
 		A57E577A232C2A7E00FC180C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A57E578C233006C400FC180C /* PlantSearchViewController.swift */,
+				A57E578E2330073E00FC180C /* UsersPlantListViewController.swift */,
+				A57E57902330080300FC180C /* DetailPlantViewController.swift */,
+				A57E57922330085800FC180C /* TimerReminderViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -255,9 +267,13 @@
 				A57E5783232FD62400FC180C /* PlantAPIClient.swift in Sources */,
 				A57E5789232FD66100FC180C /* ImageManager.swift in Sources */,
 				A57E5787232FD65000FC180C /* AppError.swift in Sources */,
+				A57E57912330080300FC180C /* DetailPlantViewController.swift in Sources */,
+				A57E57932330085800FC180C /* TimerReminderViewController.swift in Sources */,
 				A57E5785232FD63900FC180C /* NetworkManager.swift in Sources */,
 				A57E578B232FEF9700FC180C /* Secret.swift in Sources */,
+				A57E578F2330073E00FC180C /* UsersPlantListViewController.swift in Sources */,
 				A57E577F232FD5B600FC180C /* Plant.swift in Sources */,
+				A57E578D233006C400FC180C /* PlantSearchViewController.swift in Sources */,
 				A57E575A232C222100FC180C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
