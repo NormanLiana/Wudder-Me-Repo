@@ -10,6 +10,13 @@ import UIKit
 
 class TimerReminderViewController: UIViewController {
 
+    @IBOutlet weak var plantImageOutlet:
+    UIImage!
+    
+    @IBOutlet weak var plantDescriptionOutlet:
+    UITextView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
