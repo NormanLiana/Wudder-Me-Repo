@@ -10,6 +10,14 @@ import UIKit
 
 class PlantTableViewCell: UITableViewCell {
 
+    
+    @IBOutlet weak var plantImageOutlet: UIImageView!
+    
+    
+    @IBOutlet weak var plantNameOutlet: UILabel!
+    
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
