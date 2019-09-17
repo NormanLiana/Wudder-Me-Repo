@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="AJm-67-Pe4">
-                                <rect key="frame" x="0.0" y="125" width="414" height="688"/>
+                                <rect key="frame" x="0.0" y="144" width="414" height="669"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
@@ -37,8 +37,8 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WTz-a2-w86">
-                                                    <rect key="frame" x="20" y="25.5" width="44" height="14.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Time Left" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WTz-a2-w86">
+                                                    <rect key="frame" x="20" y="25.5" width="53.5" height="14.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
@@ -53,7 +53,7 @@
                                 </prototypes>
                             </tableView>
                             <searchBar contentMode="redraw" fixedFrame="YES" placeholder="Search For Your Plants Here." translatesAutoresizingMaskIntoConstraints="NO" id="dvZ-GL-Lj0">
-                                <rect key="frame" x="0.0" y="69" width="414" height="56"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" spellCheckingType="yes" enablesReturnKeyAutomatically="YES"/>
                                 <scopeButtonTitles>
@@ -73,7 +73,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kZw-LO-AGU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="993" y="226"/>
+            <point key="canvasLocation" x="1035" y="145"/>
         </scene>
         <!--Timer Reminder View Controller-->
         <scene sceneID="gbz-aI-FbU">
@@ -90,18 +90,18 @@
                                 <color key="textColor" red="0.0078431372550000003" green="0.68235294120000001" blue="0.33725490200000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QvZ-o4-SZk">
-                                <rect key="frame" x="87" y="249" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LO8-oh-H59">
-                                <rect key="frame" x="87" y="464" width="240" height="128"/>
+                                <rect key="frame" x="49" y="464" width="321" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QvZ-o4-SZk">
+                                <rect key="frame" x="20" y="231" width="374" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Eeh-uy-u4q"/>
@@ -113,7 +113,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SwL-Pv-vIJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2155" y="197"/>
+            <point key="canvasLocation" x="1898.5507246376812" y="144.64285714285714"/>
         </scene>
         <!--Plant Search View Controller-->
         <scene sceneID="7Qn-nr-9LL">
@@ -123,47 +123,52 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2Ld-a8-NvX">
-                                <rect key="frame" x="-7" y="113" width="429" height="700"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2Ld-a8-NvX">
+                                <rect key="frame" x="0.0" y="144" width="414" height="669"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="plantCell" textLabel="Ipf-Qg-q8f" detailTextLabel="Qh9-Hl-CLk" style="IBUITableViewCellStyleSubtitle" id="AbL-UI-0m3">
-                                        <rect key="frame" x="0.0" y="28" width="429" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="plantCell" rowHeight="166" id="AbL-UI-0m3" customClass="PlantTableViewCell" customModule="Wudder_Me" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="166"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AbL-UI-0m3" id="f6B-h0-o6i">
-                                            <rect key="frame" x="0.0" y="0.0" width="429" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="165.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ipf-Qg-q8f">
-                                                    <rect key="frame" x="20" y="5" width="33.5" height="20.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W5H-Mt-Omk">
+                                                    <rect key="frame" x="9" y="11" width="217" height="111"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1D-mF-klV">
+                                                    <rect key="frame" x="314" y="56" width="42" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Qh9-Hl-CLk">
-                                                    <rect key="frame" x="20" y="25.5" width="44" height="14.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="plantImageOutlet" destination="W5H-Mt-Omk" id="9rb-Wh-5xN"/>
+                                            <outlet property="plantNameOutlet" destination="I1D-mF-klV" id="lcV-f3-p0z"/>
                                             <segue destination="elG-7k-01X" kind="show" identifier="plantSeque" id="XMI-tE-flG"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lXh-Yv-8md">
-                                <rect key="frame" x="0.0" y="69" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <searchBar contentMode="redraw" placeholder="Search All Plants Here!" translatesAutoresizingMaskIntoConstraints="NO" id="lXh-Yv-8md">
+                                <rect key="frame" x="0.0" y="88" width="414" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2Ld-a8-NvX" firstAttribute="leading" secondItem="41X-0p-gip" secondAttribute="leading" id="51d-S3-6QZ"/>
+                            <constraint firstItem="lXh-Yv-8md" firstAttribute="leading" secondItem="D3Z-GF-mAL" secondAttribute="leading" id="Job-fk-voa"/>
+                            <constraint firstItem="lXh-Yv-8md" firstAttribute="trailing" secondItem="D3Z-GF-mAL" secondAttribute="trailing" id="Qhu-N9-Ztr"/>
+                            <constraint firstItem="2Ld-a8-NvX" firstAttribute="bottom" secondItem="D3Z-GF-mAL" secondAttribute="bottom" id="Tml-Ie-nOy"/>
+                            <constraint firstItem="lXh-Yv-8md" firstAttribute="top" secondItem="D3Z-GF-mAL" secondAttribute="top" id="bsn-Aq-TWt"/>
+                            <constraint firstAttribute="trailing" secondItem="2Ld-a8-NvX" secondAttribute="trailing" id="i3p-qF-MJu"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="D3Z-GF-mAL"/>
                     </view>
                     <navigationItem key="navigationItem" id="0ch-Pm-L9P"/>
@@ -174,7 +179,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oZ2-vO-7Nd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1036.231884057971" y="-504.24107142857139"/>
+            <point key="canvasLocation" x="1034.7826086956522" y="-504.24107142857139"/>
         </scene>
         <!--Detail Plant View Controller-->
         <scene sceneID="vnZ-cX-klt">
@@ -208,12 +213,12 @@
                                 <color key="shadowColor" cocoaTouchSystemColor="lightTextColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ekk-tp-Vx7">
-                                <rect key="frame" x="20" y="412" width="374" height="359"/>
+                                <rect key="frame" x="20" y="412" width="374" height="327"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Allow the soil to dry between waterings, as Pilea do not like soggy soil. Watch the leaves—when they start looking a tad droopy, it’s time to water your plant. In warmer weather, they need to be watered more frequently.</string>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -231,7 +236,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w34-2y-dTX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2155.072463768116" y="-513.61607142857144"/>
+            <point key="canvasLocation" x="1898.5507246376812" y="-504.24107142857139"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="R3a-p7-kbG">
@@ -251,11 +256,11 @@
             </objects>
             <point key="canvasLocation" x="-1055" y="-160"/>
         </scene>
-        <!--Item 1-->
+        <!--Plants-->
         <scene sceneID="I34-ti-Nmg">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OJT-lv-C7m" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="D4p-Ld-an2"/>
+                    <tabBarItem key="tabBarItem" title="Plants" image="icons8-leaf-1" landscapeImage="icons8-leaf-1" selectedImage="icons8-leaf-1" id="D4p-Ld-an2"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ncL-Wv-Geo">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -270,11 +275,11 @@
             </objects>
             <point key="canvasLocation" x="126.08695652173914" y="-504.24107142857139"/>
         </scene>
-        <!--Item 2-->
+        <!--My Plants-->
         <scene sceneID="hKL-qo-Mbx">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="STi-ay-I3W" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" id="oeC-dx-ucf"/>
+                    <tabBarItem key="tabBarItem" title="My Plants" image="icons8-leaf" landscapeImage="icons8-leaf" selectedImage="icons8-leaf" id="oeC-dx-ucf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9Fm-jz-7XD">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -290,4 +295,8 @@
             <point key="canvasLocation" x="127.53623188405798" y="144.64285714285714"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icons8-leaf" width="25" height="25"/>
+        <image name="icons8-leaf-1" width="25" height="25"/>
+    </resources>
 </document>
