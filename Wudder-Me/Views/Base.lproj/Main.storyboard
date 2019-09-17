@@ -251,11 +251,11 @@
             </objects>
             <point key="canvasLocation" x="-1055" y="-160"/>
         </scene>
-        <!--Item 1-->
+        <!--Plants-->
         <scene sceneID="I34-ti-Nmg">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OJT-lv-C7m" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="D4p-Ld-an2"/>
+                    <tabBarItem key="tabBarItem" title="Plants" image="icons8-leaf-1" landscapeImage="icons8-leaf-1" selectedImage="icons8-leaf-1" id="D4p-Ld-an2"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ncL-Wv-Geo">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -270,11 +270,11 @@
             </objects>
             <point key="canvasLocation" x="126.08695652173914" y="-504.24107142857139"/>
         </scene>
-        <!--Item 2-->
+        <!--My Plants-->
         <scene sceneID="hKL-qo-Mbx">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="STi-ay-I3W" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" id="oeC-dx-ucf"/>
+                    <tabBarItem key="tabBarItem" title="My Plants" image="icons8-leaf" landscapeImage="icons8-leaf" selectedImage="icons8-leaf" id="oeC-dx-ucf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9Fm-jz-7XD">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -290,4 +290,8 @@
             <point key="canvasLocation" x="127.53623188405798" y="144.64285714285714"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icons8-leaf" width="25" height="25"/>
+        <image name="icons8-leaf-1" width="25" height="25"/>
+    </resources>
 </document>
