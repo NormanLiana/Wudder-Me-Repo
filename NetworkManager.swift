@@ -24,7 +24,8 @@ class NetworkManager {
             DispatchQueue.main.async {
                 guard let data = data else { completionHandler(.failure(.noDataReceived))
                     return }
-                guard let response = response as? HTTPURLResponse, (200...299) ~= response.statusCode else { completionHandler(.failure(.badStatusCode))
+                guard let response = response as? HTTPURLResponse, (200...299) ~= response.statusCode else {
+                    completionHandler(.failure(.badStatusCode))
                     return }
                 if let error = error {
                     let error = error as NSError

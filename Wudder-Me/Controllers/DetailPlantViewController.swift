@@ -20,11 +20,22 @@ class DetailPlantViewController: UIViewController {
     // MARK: Properties
     var plant: Plant!
     
-    
+    // MARK: Button Actions
     @IBAction func createPlantButton(_ sender: UIButton) {
+       var _ = UserPlantList.addPlantToUserList(plant: plant)
         
     }
     
+    // MARK: Segue
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.destination is UsersPlantListViewController {
+            guard let userListVC = segue.destination as? UsersPlantListViewController else {
+                return
+            }
+        }
+    }
+    
+    // MARK: Lifecycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpViews()

@@ -42,6 +42,12 @@ class PlantSearchViewController: UIViewController {
 
     }
     
+    
+    override func viewWillAppear(_ animated: Bool) {
+        
+       dump(UserPlantList.usersPlants) 
+    }
+    
     // MARK: Private Methods
     private func loadData() {
         PlantAPTClient.manager.getPlants { (result) in

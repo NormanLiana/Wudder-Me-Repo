@@ -197,7 +197,6 @@
                                 </state>
                                 <connections>
                                     <action selector="createPlantButton:" destination="elG-7k-01X" eventType="touchUpInside" id="ybL-Sg-gvL"/>
-                                    <segue destination="iBO-h2-mjg" kind="show" identifier="creationSeque" id="MXA-ek-8sC"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Plant Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="al2-xL-Nbw">
@@ -291,7 +290,4 @@
             <point key="canvasLocation" x="127.53623188405798" y="144.64285714285714"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="MXA-ek-8sC"/>
-    </inferredMetricsTieBreakers>
 </document>
