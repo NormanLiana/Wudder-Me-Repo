@@ -24,16 +24,19 @@ class DetailPlantViewController: UIViewController {
     @IBAction func createPlantButton(_ sender: UIButton) {
        var _ = UserPlantList.addPlantToUserList(plant: plant)
         
+        MakeNotification.configureAlerts(identify: plant.name, title: plant.name, subtitle: "Water Me!", body: "Today", time: 60 )
+        self.navigationController?.popViewController(animated: true)
+            // For real then do this Double(plant.hours)! * 3600)
     }
     
     // MARK: Segue
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.destination is UsersPlantListViewController {
-            guard let userListVC = segue.destination as? UsersPlantListViewController else {
-                return
-            }
-        }
-    }
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.destination is UsersPlantListViewController {
+//            guard let userListVC = segue.destination as? UsersPlantListViewController else {
+//                return
+//            }
+//        }
+//    }
     
     // MARK: Lifecycle Methods
     override func viewDidLoad() {
