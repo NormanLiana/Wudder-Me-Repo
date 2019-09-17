@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+
+		
+		96AF2CEA23317B60001F0B2E /* PlantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AF2CE923317B60001F0B2E /* PlantTableViewCell.swift */; };
+
 		859F2A6A2331437B0086C9B1 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859F2A692331437B0086C9B1 /* Secret.swift */; };
 		859F2A6C233145090086C9B1 /* ConfigureNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859F2A6B233145090086C9B1 /* ConfigureNotifications.swift */; };
 		859F2A6E233169F30086C9B1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859F2A6D233169F30086C9B1 /* Extensions.swift */; };
+
 		A53AC65523311FE500F96720 /* UserPlantList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53AC65423311FE500F96720 /* UserPlantList.swift */; };
 		A57E575A232C222100FC180C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E5759232C222100FC180C /* AppDelegate.swift */; };
 		A57E575F232C222100FC180C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57E575D232C222100FC180C /* Main.storyboard */; };
@@ -38,9 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+
+
+		96AF2CE923317B60001F0B2E /* PlantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantTableViewCell.swift; sourceTree = "<group>"; };
+
 		859F2A692331437B0086C9B1 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 		859F2A6B233145090086C9B1 /* ConfigureNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureNotifications.swift; sourceTree = "<group>"; };
 		859F2A6D233169F30086C9B1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+
 		A53AC65423311FE500F96720 /* UserPlantList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPlantList.swift; sourceTree = "<group>"; };
 		A57E5756232C222100FC180C /* Wudder-Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wudder-Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57E5759232C222100FC180C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +143,7 @@
 		A57E577A232C2A7E00FC180C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				96AF2CE923317B60001F0B2E /* PlantTableViewCell.swift */,
 				A57E578C233006C400FC180C /* PlantSearchViewController.swift */,
 				A57E578E2330073E00FC180C /* UsersPlantListViewController.swift */,
 				A57E57902330080300FC180C /* DetailPlantViewController.swift */,
@@ -167,7 +178,9 @@
 				A57E5782232FD62400FC180C /* PlantAPIClient.swift */,
 				A57E5786232FD65000FC180C /* AppError.swift */,
 				A57E5788232FD66100FC180C /* ImageManager.swift */,
+
 				859F2A692331437B0086C9B1 /* Secret.swift */,
+
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -274,14 +287,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				A53AC65523311FE500F96720 /* UserPlantList.swift in Sources */,
+
 				859F2A6A2331437B0086C9B1 /* Secret.swift in Sources */,
+
 				A57E5783232FD62400FC180C /* PlantAPIClient.swift in Sources */,
 				A57E5789232FD66100FC180C /* ImageManager.swift in Sources */,
 				A57E5787232FD65000FC180C /* AppError.swift in Sources */,
 				A57E57912330080300FC180C /* DetailPlantViewController.swift in Sources */,
+				96AF2CEA23317B60001F0B2E /* PlantTableViewCell.swift in Sources */,
 				A57E57932330085800FC180C /* TimerReminderViewController.swift in Sources */,
 				A57E5785232FD63900FC180C /* NetworkManager.swift in Sources */,
+
 				859F2A6C233145090086C9B1 /* ConfigureNotifications.swift in Sources */,
+
 				A57E578F2330073E00FC180C /* UsersPlantListViewController.swift in Sources */,
 				A57E577F232FD5B600FC180C /* Plant.swift in Sources */,
 				A57E578D233006C400FC180C /* PlantSearchViewController.swift in Sources */,
