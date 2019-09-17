@@ -81,14 +81,20 @@ extension PlantSearchViewController: UITableViewDataSource {
             case .success(let data):
                 DispatchQueue.main.async {
                     cell.imageView?.image = data
+                    
+                    self.plantTableViewOutlet.reloadData()
                 }
             }
         }
         cell.textLabel?.text = plants[indexPath.row].name
         return cell
     }
-    
-    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "Tap to view"
+    }
 }
 
 extension PlantSearchViewController: UITableViewDelegate {
